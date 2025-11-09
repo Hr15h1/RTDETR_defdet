@@ -1,8 +1,0 @@
-nc: 6
-
-backbone:
-  - [-1, 1, TorchVision, [1000, "squeezenet1_1", "DEFAULT", True, 2, True]]
-
-
-head:
-  - [-1, 1, nn.Identity, []]
