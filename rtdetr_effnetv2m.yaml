@@ -1,6 +1,6 @@
 # RT-DETR with EfficientNet-B0 backbone
 
-nc: 6  # number of classes
+nc: 13  # number of classes
 
 
 scales:

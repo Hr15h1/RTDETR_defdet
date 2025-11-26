@@ -1,5 +1,5 @@
 # RT-DETR with DenseNet121 backbone (final verified by output shapes)
-nc: 6  # your number of classes
+nc: 13  # your number of classes
 depth_multiple: 1.0
 width_multiple: 1.0
 
