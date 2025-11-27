@@ -1,0 +1,1 @@
+yolo detect train model=rtdetr-l.yaml data=data.yaml epochs=2000 batch=32 save_period=1 device=0 project=rtdetr_hgnet_01 name=training_r_01 seed=42 lr0=0.001 plots=true

@@ -1,8 +1,31 @@
-train: dataset/train
-val: dataset/val
+# train:
+#   images: defects_dataset_new-1/train/images/
+#   annotations: defects_dataset_new-1/train/_annotations.coco.json
 
-train_ann: _annotations.coco.json
-val_ann: _annotations.coco.json
+# val:
+#   images: defects_dataset_new-1/test/images/
+#   annotations: defects_dataset_new-1/test/_annotations.coco.json
 
-nc: 13
-names: ["inclusion", "rolled_pit", "crazing", "crease", "rolled-in_scale", "oil_spot", "punching_hole", "crescent_gap", "scratches", "waist_folding", "water_spot", "silk_spot", "welding_line"]
+# nc: 13
+# names: ["inclusion", "rolled_pit", "crazing", "crease", "rolled-in_scale", "oil_spot", "punching_hole", "crescent_gap", "scratches", "waist_folding", "water_spot", "silk_spot", "welding_line"]
+
+
+path: defects_dataset_darknet/
+train: train/
+val: valid/
+test: test/
+
+names:
+  0: inclusion
+  1: rolled_pit
+  2: crazing
+  3: crease
+  4: rolled-in_scale
+  5: oil_spot
+  6: punching_hole
+  7: crescent_gap
+  8: scratches
+  9: waist_folding
+  10: water_spot
+  11: silk_spot
+  12: welding_line
